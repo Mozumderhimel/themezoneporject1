@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,500,600,700,800,900|Ubuntu:400,500,700&display=swap');
+/* font-family: 'Playfair Display', serif; */
+/* font-family: 'Ubuntu', sans-serif; */
+
+* {
+    margin 0;
+    padding: 0;
+}
+
+/* Header part start */
+header {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.logo {}
+
+.logo img {}
+
+nav {
+    width: 40%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    color: #252221;
+}
+
+/* Header part end */
+
+
+/* banner part start  */
+
+.banner {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+/* banner part end  */
+
+
+/* banner part star */
+
+.photodiary {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.photodiary h5 {
+    color: #b4ad9e;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.photodiary h1 {
+    color: #626262;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-family: 'Playfair Display', serif;
+}
+
+.photodiary p {
+    font-family: 'Ubuntu', sans-serif;
+    color: #626262;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+/* banner part end */
+
+
+/* lifestyle section start */
+
+.lifestyle_One {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.LifeStyle_01 {
+    width: 48%;
+}
+
+.LifeStyle_01 img {
+    width: 100%;
+}
+
+.LifeStyle_01 h5 {
+    color: #b4ad9e;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.LifeStyle_01 h1 {
+    color: #626262;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-family: 'Playfair Display', serif;
+}
+
+.LifeStyle_01 p {
+    font-family: 'Ubuntu', sans-serif;
+    color: #626262;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+/* lifestyle section end */
+
+/* Newslatter section start */
+
+
+.NewsLatter {
+    width: 100%;
+    background: #f0f0f0;
+    padding: 50px 0;
+    margin-bottom: 80px;
+}
+
+.news {
+    width: 369px;
+    margin: auto;
+    position: relative;
+}
+
+.news h1 {
+    color: #626262;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-family: 'Playfair Display', serif;
+}
+
+.news input {
+    margin-top: 40px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid;
+    width: 369px;
+    padding: 10px 0;
+}
+
+
+
+input ::placeholder {
+    color: #626262;
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+}
+
+.send {
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+}
+
+
+
+
+footer {
+    background: #f0f0f0;
+    padding: 37px 0;
+}
+
+.footer_containt {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.terms {
+    list-style: none;
+    width: 26%;
+}
+
+.terms ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.terms ul li {}
+
+.terms ul li a {
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-decoration: none;
+    color: #626262;
+}
+
+
+.social_icon {
+    width: 16%;
+}
+
+.social_icon ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social_icon ul li {}
+
+.social_icon ul li a {
+    text-decoration: none;
+    color: #626262;
+}
+
+.social_icon ul li a i {}
+
+
+/* footer section end */
